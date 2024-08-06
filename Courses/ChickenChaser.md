@@ -11,5 +11,7 @@
 
 
 ## Shaders
+* [Decals](../Content/Shaders/Decals.md)
 * [Shader Pipeline](../Content/Shaders/ShaderPipeline.md)
 * [UVs](../Content/Shaders/UVs.md)
+
