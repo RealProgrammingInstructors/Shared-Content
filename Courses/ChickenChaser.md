@@ -1,8 +1,14 @@
 # Chicken Chaser
+
+
+
 ## Coding
 * [Model View Controller](../Content/Coding/ModelViewController.md)
 * [Observer](../Content/Coding/Observer.md)
 * [Singleton](../Content/Coding/Singleton.md)
+
+## Essentials
+* [C# Symbols](../Content/Essentials/CSharp Symbols.md)
 
 
 ## Unity
