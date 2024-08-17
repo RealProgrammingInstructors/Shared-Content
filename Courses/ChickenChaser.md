@@ -8,7 +8,7 @@
 * [Singleton](../Content/Coding/Singleton.md)
 
 ## Essentials
-* [C# Symbols](../Content/Essentials/CSharp Symbols.md)
+* [C# Symbols](../Content/Essentials/CSharp%20Symbols.md)
 
 
 ## Unity
