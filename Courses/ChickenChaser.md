@@ -1,6 +1,6 @@
 # Chicken Chaser
 
-
+![Intro.gif](../OtherImages/Intro.gif)
 
 ## Coding
 * [Model View Controller](../Content/Coding/ModelViewController.md)
