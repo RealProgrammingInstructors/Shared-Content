@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3cc9404-c007-4919-82e6-c4a5da10e61c" name="Changes" comment="" />
+    <list default="true" id="b3cc9404-c007-4919-82e6-c4a5da10e61c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Content/Math/Images/RiseRun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Math/Images/triangle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Math/Slope.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/ChickenChaser.md" beforeDir="false" afterPath="$PROJECT_DIR$/Courses/ChickenChaser.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Courses/ToadalChaos.md" beforeDir="false" afterPath="$PROJECT_DIR$/Courses/ToadalChaos.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherImages/CM10.gif" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +25,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2knwHqKDqmvDVKTda17ZFfedscU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,6 +54,7 @@
       <updated>1723932563585</updated>
       <workItem from="1723932564717" duration="3563000" />
       <workItem from="1724025689068" duration="610000" />
+      <workItem from="1725935010982" duration="1232000" />
     </task>
     <servers />
   </component>

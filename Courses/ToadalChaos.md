@@ -1,10 +1,11 @@
 # Toadal Chaos
+NOTE: These resources do not contain ALL the content, but mainly the juicy bits of the course. Instructors know more information and will teach it during the course
 
-![CM10.gif](../OtherImages/CM10.gif)
-
+![ToadalChaos.jpg](../OtherImages/ToadalChaos.jpg)
 
 ## Coding
 * [Factory.md](../Content/Coding/Factory.md)
+* [Object Pooling.md](../Content/Coding/Object%20Pooling.md)
 
 ## Essentials
 * [Java Symbols](../Content/Essentials/Java%20Symbols.md)
