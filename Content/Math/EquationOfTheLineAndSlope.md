@@ -87,7 +87,7 @@ if you want to add things like 2D lasers, or slopes EOTL is necessary.
 Below is an interactive example in desmos with the numbers we used. 
 
 
-## View in Desmos[In Desmos](https://www.desmos.com/calculator/2a9uvr6r31)
+## [In Desmos](https://www.desmos.com/calculator/yxrzjmc2a2)
 
 
 
