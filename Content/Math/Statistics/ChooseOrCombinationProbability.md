@@ -8,7 +8,7 @@ NOTE: before continuing make sure you understand [Factorial](../Factorial.md)
 
 In probability and combinatorics, "choose" refers to the number of ways to select a subset of items from a larger set—without considering the order in which they are chosen. This is commonly represented by the binomial coefficient, written as:
 
-![Choose.png](Resources/choose.png)
+![Choose.png](Resources/Choose.png)
 
 In this formula. In this formula, n represent the total number of choices, and k represents the selected number of choices.
 
