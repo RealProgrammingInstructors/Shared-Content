@@ -1,5 +1,20 @@
 ﻿# Shared Memory / Flyweight pattern and Scriptable objects
 
+## Interesting features
+
+A scriptable object is a special type of script in Unity that does not exist as an object in the game, but instead a data container that can be used anywhere. This means that objects which are marked as scriptable objects should be created in the editor, and in general should only be modified while in editor to prevent issues.
+
+A scriptable object also saves while the game is running. This means attaching a scriptable object to the player that controls their speed, would allow you to test the players speed values, and keep the final value you had selected.
+
+## Architecture
+
+Scriptable objects are really powerful in many contexts in Unity. They can be used to optimize with the flyweight pattern, but they can also be used for the SOAP design pattern. [Here's a good video if you're interested more.](https://www.youtube.com/watch?v=bO8WOHCxPq8)
+
+Moreover because of scriptable objects unique ability to be edited and save while the game is running, it can be useful to create a scriptable objects for things even if they only exist once.
+
+## Flyweight Optimization
+
+
 Scriptable Objects is an easy way to implement the [flyweight design pattern](https://en.wikipedia.org/wiki/Flyweight_pattern) in Unity. Flyweight is the idea of reusing the same thing many times, instead of making copies.
 
 Consider the following problem: If we have 100 zombies in our game how much RAM (Random Access Memory) does each use? To solve this we need to look at each variable the zombie HAS.
