@@ -49,10 +49,27 @@ def resize_image(image: pygame.Surface, width: int, height: int):
     return image
 
 
+def rotate_image(image: pygame.Surface, pos: tuple[int, int], angle: float):
+    origin_pos = (0, 0)  # Origin position should be top left of the screen
+    image_rect = image.get_rect(topleft=(pos[0] - origin_pos[0], pos[1] - origin_pos[1]))
+    offset = pygame.math.Vector2(pos) - image_rect.topleft
+
+    # Pygame's rotate function spins counter-clockwise, so we invert the angle for the math vector
+    rotated_offset = offset.rotate_rad(-angle)
+
+    angle_in_degrees = math.degrees(angle)  # converting our Radians Angle to Degrees Angle for image rotation
+    rotated_image = pygame.transform.rotate(image, -angle_in_degrees)
+
+    new_top_left = pygame.math.Vector2(pos) - rotated_offset
+
+    rotated_rect = rotated_image.get_rect(topleft=new_top_left)
+    screen.blit(rotated_image, rotated_rect)
+
+
 # ---- Text Functions
-def draw_text(text: str, pos: tuple[int, int]):
+def draw_text(text: str, x: int, y: int):
     text_to_draw = font.render(text, True, font_colour)
-    screen.blit(text_to_draw, pos)
+    screen.blit(text_to_draw, (x, y))
 
 
 def set_font_size(size: int):
@@ -88,4 +105,5 @@ def circle(x: float, y: float, radius: float, colour: tuple[int, int, int]):
 
 def ellipse(x: float, y: float, w: int, h: int, colour: tuple[int, int, int]):
     pygame.draw.ellipse(screen, colour, (x, y, w, h))
+
 
